@@ -86,7 +86,7 @@ PRODUCT_COPY_FILES += \
     	
 # Misc	
 # Get the long list of APNs
-PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
+PRODUCT_COPY_FILES := device/lge/ls840/configs/apns-full-conf.xml:system/etc/apns-conf.xml
 
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
@@ -172,7 +172,7 @@ PRODUCT_PACKAGES += \
 
 # Codecs
 # PRODUCT_COPY_FILES += \
-#	device/lge/ls840/configs/media_profiles.xml:system/etc/media_profiles.xml \
+	device/lge/ls840/configs/media_profiles.xml:system/etc/media_profiles.xml \
 #	device/lge/ls840/configs/media_codecs.xml:system/etc/media_codecs.xml
 
 # Charger
@@ -191,7 +191,7 @@ PRODUCT_PACKAGES += \
 	make_ext4fs \
 	setup_fs
 
-# WIMAX
+# LTE Technology
 PRODUCT_PACKAGES += \
     WiMAXSettings \
     SprintMenu \
