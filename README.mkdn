@@ -1,11 +1,3 @@
-## Current Recovery Build Status
-
-####Current CWM Build Status
-<a href='http://jenkins.gitmanagement.tk/job/CWM%20for%20the%20LG%20Viper%204G%20LTE/'><img src='http://jenkins.gitmanagement.tk/job/CWM%20for%20the%20LG%20Viper%204G%20LTE/badge/icon'></a>
-
-####Current TWRP Build Status
-<a href='http://jenkins.gitmanagement.tk/job/TWRP%20for%20the%20LG%20Viper%204G%20LTE/'><img src='http://jenkins.gitmanagement.tk/job/TWRP%20for%20the%20LG%20Viper%204G%20LTE/badge/icon'></a>
-
 ####Current COT Build Status
 <a href='http://jenkins.gitmanagement.tk/job/COT%20for%20the%20LG%20Viper%204G%20LTE/'><img src='http://jenkins.gitmanagement.tk/job/COT%20for%20the%20LG%20Viper%204G%20LTE/badge/icon'></a>
 
@@ -86,6 +78,7 @@ Once that opens, copy and paste the following:
     <project name="EpicAOSP/android_kernel_samsung_smdk4210_new" path="kernel/samsung/smdk4210" remote="github" revision="ics" />
     <project name="mcrosson/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="github" revision="ics" />
     <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="ics" />
+    <project name="ProjectOpenCannibal/android_bootable_recovery" path="bootable/recovery" remote="github" revision="jellybean-dev" />
   </manifest>
 ```
 
