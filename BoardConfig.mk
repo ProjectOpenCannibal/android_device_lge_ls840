@@ -33,7 +33,7 @@ TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 COMMON_GLOBAL_CFLAGS += -DREFRESH_RATE=60 -DQCOM_HARDWARE -DNO_QCOM_MVS
 
 # Assert for OTA
-TARGET_OTA_ASSERT_DEVICE := viper4glte,lgls840,ls840
+TARGET_OTA_ASSERT_DEVICE := viper4glte,lgls840,ls840,cayman,cayman_sprint_us,cayman_us_sprint
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
