@@ -193,9 +193,7 @@ PRODUCT_PACKAGES += \
 
 # LTE Technology
 PRODUCT_PACKAGES += \
-    WiMAXSettings \
     SprintMenu \
-    WiMAXHiddenMenu \
     SystemUpdateUI
 
 PRODUCT_PROPERTY_OVERRIDES += \
