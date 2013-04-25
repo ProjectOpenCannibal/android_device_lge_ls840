@@ -1,5 +1,7 @@
 #
-# Copyright (C) 2013 The Panda Project / Ryan Norris
+# Copyright (C) 2013-2015 Norris Enterprises
+# Copyright (C) 2012-2013 Ryan Norris
+# Copyright (C) 2013-2014 Project Open Cannibal
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
