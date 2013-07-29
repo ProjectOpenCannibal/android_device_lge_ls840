@@ -19,7 +19,7 @@
 
 # This variable is set first, so it can be overridden
 # by BoardConfigVendor.mk
-USE_CAMERA_STUB := true
+USE_CAMERA_STUB := false
 BOARD_USES_GENERIC_AUDIO := true
 #BOARD_USES_LIBSECRIL_STUB := true
 #BOARD_USE_SKIA_LCDTEXT := true
@@ -42,7 +42,7 @@ BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Bootloader
-TARGET_NO_BOOTLOADER := true
+TARGET_NO_BOOTLOADER := false
 
 # Camera
 BOARD_USES_PROPRIETARY_LIBCAMERA := true
@@ -50,7 +50,7 @@ BOARD_USES_PROPRIETARY_LIBCAMERA := true
 # Charging mode
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/power_supply/battery/batt_lp_charging
 BOARD_BATTERY_DEVICE_NAME := "battery"
-BOARD_CHARGER_RES := device/lge/ls840/res/charger
+#BOARD_CHARGER_RES := device/lge/ls840/res/charger
 
 # HWComposer
 #BOARD_USES_HWCOMPOSER := true
