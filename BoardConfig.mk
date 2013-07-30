@@ -73,7 +73,8 @@ BOARD_FLASH_BLOCK_SIZE 		   := 131072
 BOARD_DATA_DEVICE := /dev/block/mmcblk0p29
 BOARD_DATA_FILESYSTEM := ext4
 BOARD_DATA_FILESYSTEM_OPTIONS := nosuid,nodev,relatime,barrier=1,noauto_da_alloc
-BOARD_SYSTEM_DEVICE := /dev/block/mmcblk0p27 BOARD_SYSTEM_FILESYSTEM_OPTIONS := noatime,nodiratime,barrier=1,noauto_da_alloc
+BOARD_SYSTEM_DEVICE := /dev/block/mmcblk0p27
+BOARD_SYSTEM_FILESYSTEM_OPTIONS := noatime,nodiratime,barrier=1,noauto_da_alloc
 BOARD_SYSTEM_FILESYSTEM := ext4
 BOARD_CACHE_DEVICE := /dev/block/mmcblk0p28
 BOARD_CACHE_FILESYSTEM := ext4
