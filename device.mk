@@ -22,7 +22,7 @@ DEVICE_PACKAGE_OVERLAYS := device/lge/ls840/overlay
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES := \
-	frameworks/base/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
+	frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
 
 $(call inherit-product, device/lge/ls840/device.mk)
 $(call inherit-product-if-exists, vendor/lge/ls840/ls840-vendor.mk)
